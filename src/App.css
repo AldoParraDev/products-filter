@@ -1,0 +1,9 @@
+.card-product {
+   @apply w-auto flex flex-col border border-solid border-white p-[1rem] gap-[1rem];
+   h3 {
+      @apply uppercase font-bold;
+   }
+   p {
+      @apply text-[14px];
+   }
+}
